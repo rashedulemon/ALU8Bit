@@ -1,0 +1,31 @@
+module FullAdder (
+	input logic A,
+	input logic B,
+	input logic Cin,
+	output logic Sum,
+	output logic Cout
+);
+
+	//internal signal
+	logic s1;
+	logic c1;
+	logic c2;
+
+	//first half adder
+	HalfAdder HA1 (
+		.A(A),
+		.B(B),
+		.Sum(s1),
+		.Carry(c1)
+	);
+	//second half adder
+	HalfAdder HA2 (
+		.A(s1),
+		.B(Cin),
+		.Sum(Sum),
+		.Carry(c2)
+	);
+
+	//final carry
+	assign Cout = c1 | c2;
+endmodule

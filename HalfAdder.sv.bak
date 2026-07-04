@@ -1,0 +1,11 @@
+module HalfAdder (
+	input logic A,
+	input logic B,
+	output logic Sum,
+	output logic Carry
+);
+
+	assign sum = A^B;
+	assign carry = A&B;
+
+endmodule

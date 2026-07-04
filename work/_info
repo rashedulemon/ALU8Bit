@@ -1,0 +1,254 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VLSI/ALU8
+T_opt
+!s110 1783199640
+V]]@:a2UiZD1b?a=J0Kj9S2
+04 12 4 work FullAdder_tb fast 0
+=1-74563c87cb6c-6a497798-18e-2200
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+Z2 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1783199788
+V?z^4NQKOeQ0aR7fX;mHEQ1
+04 7 4 work ALU8_tb fast 0
+=1-74563c87cb6c-6a49782c-192-1f74
+o-quiet -auto_acc_if_foreign -work work +acc
+R1
+n@_opt1
+R2
+vAdderSubtractor8
+Z3 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z4 !s110 1783199371
+!i10b 1
+!s100 CN_m^gkfE=JK6_da6>FFH0
+IGQBQRWZ_z0eAT8^@lf=SN2
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+!s105 AdderSubtractor8_sv_unit
+S1
+R0
+w1783197482
+8AdderSubtractor8.sv
+FAdderSubtractor8.sv
+L0 1
+Z6 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z7 !s108 1783199371.000000
+!s107 AdderSubtractor8.sv|
+!s90 -reportprogress|300|-sv|AdderSubtractor8.sv|
+!i113 0
+Z8 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@adder@subtractor8
+vALU8
+R3
+Z9 !s110 1783199372
+!i10b 1
+!s100 VL4hz>`_CaX7im2nBY`0P2
+IYNi<egdhng8mmIV>Shfa60
+R5
+!s105 ALU8_sv_unit
+S1
+R0
+w1783197923
+8ALU8.sv
+FALU8.sv
+L0 1
+R6
+r1
+!s85 0
+31
+Z10 !s108 1783199372.000000
+!s107 ALU8.sv|
+!s90 -reportprogress|300|-sv|ALU8.sv|
+!i113 0
+R8
+R1
+n@a@l@u8
+vALU8_tb
+R3
+R9
+!i10b 1
+!s100 ^oO69o[XM9D18QMBQHMPC2
+I`FAU28[GhanFTVAg3XWSL3
+R5
+!s105 ALU8_tb_sv_unit
+S1
+R0
+w1783199063
+8ALU8_tb.sv
+FALU8_tb.sv
+L0 3
+R6
+r1
+!s85 0
+31
+R10
+!s107 ALU8_tb.sv|
+!s90 -reportprogress|300|-sv|ALU8_tb.sv|
+!i113 0
+R8
+R1
+n@a@l@u8_tb
+vFullAdder
+R3
+Z11 !s110 1783199680
+!i10b 1
+!s100 O^SIZUH@QE>QYOjM1RCMZ0
+IF6KH2a07ZCGFn_NRoPS0Y0
+R5
+!s105 FullAdder_sv_unit
+S1
+R0
+w1783197105
+8FullAdder.sv
+FFullAdder.sv
+L0 1
+R6
+r1
+!s85 0
+31
+Z12 !s108 1783199680.000000
+!s107 FullAdder.sv|
+!s90 -reportprogress|300|-sv|FullAdder.sv|
+!i113 0
+R8
+R1
+n@full@adder
+vFullAdder_tb
+R3
+R11
+!i10b 1
+!s100 M[S=oGUfeNP]]BKF71S<c1
+IZb7MOmfK^K]JSkQ9e8hdj2
+R5
+!s105 FullAdder_tb_sv_unit
+S1
+R0
+w1783199578
+8FullAdder_tb.sv
+FFullAdder_tb.sv
+L0 3
+R6
+r1
+!s85 0
+31
+R12
+!s107 FullAdder_tb.sv|
+!s90 -reportprogress|300|-sv|FullAdder_tb.sv|
+!i113 0
+R8
+R1
+n@full@adder_tb
+vHalfAdder
+R3
+R11
+!i10b 1
+!s100 ^mI43:<nQZC];E8ZP14LA0
+IVNPS7mn_KDlJcm9z6jCDW2
+R5
+!s105 HalfAdder_sv_unit
+S1
+R0
+w1783199613
+8HalfAdder.sv
+FHalfAdder.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R12
+!s107 HalfAdder.sv|
+!s90 -reportprogress|300|-sv|HalfAdder.sv|
+!i113 0
+R8
+R1
+n@half@adder
+vLogicUnit8
+R3
+R9
+!i10b 1
+!s100 ADbn9XiXA:NdecjV429Ji0
+I4E1@4AaJi[B[88fEJ^:8T1
+R5
+!s105 LogicUnit8_sv_unit
+S1
+R0
+w1783197610
+8LogicUnit8.sv
+FLogicUnit8.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R10
+!s107 LogicUnit8.sv|
+!s90 -reportprogress|300|-sv|LogicUnit8.sv|
+!i113 0
+R8
+R1
+n@logic@unit8
+vMultiplexer8
+R3
+R9
+!i10b 1
+!s100 Iha9VKJ<F^eEaZ>8C]GR62
+IYHBB@3ia`a7kg]iRjca`62
+R5
+!s105 Multiplexer8_sv_unit
+S1
+R0
+w1783197780
+8Multiplexer8.sv
+FMultiplexer8.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R10
+!s107 Multiplexer8.sv|
+!s90 -reportprogress|300|-sv|Multiplexer8.sv|
+!i113 0
+R8
+R1
+n@multiplexer8
+vRippleCarryAdder8
+R3
+R4
+!i10b 1
+!s100 [4=<9z6>Y6YB=:?:Odo8^1
+Ig`ogG^EKhEkaTVU7elz2l3
+R5
+!s105 RippleCarryAdder8_sv_unit
+S1
+R0
+w1783197307
+8RippleCarryAdder8.sv
+FRippleCarryAdder8.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 RippleCarryAdder8.sv|
+!s90 -reportprogress|300|-sv|RippleCarryAdder8.sv|
+!i113 0
+R8
+R1
+n@ripple@carry@adder8
